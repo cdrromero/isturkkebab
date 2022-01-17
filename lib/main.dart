@@ -44,8 +44,7 @@ class _MyAppState extends State<MyApp> {
                   builder: (context) => Image.asset(
                     'assets/images/Logo-Prov.png',
                     width: MediaQuery.of(context).size.width * 0.9,
-                    height: 100,
-                    fit: BoxFit.cover,
+                    fit: BoxFit.contain,
                   ),
                 ),
               ),
